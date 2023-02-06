@@ -1,0 +1,142 @@
+.nav {
+  position: fixed;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  top: 0;
+  width: 100%;
+  padding: 0 30px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.travelsite {
+  color: #335576;
+  font-weight: bold;
+  display: inline;
+  text-decoration: none;
+}
+
+.pages__list {
+  display: flex;
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+.page__link {
+  text-decoration: none;
+  color: #000000;
+  padding-bottom: 5px;
+  margin-right: 20px;
+}
+
+.active {
+  border-bottom: 2px solid #db7a4e;
+}
+
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.hawaii {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+
+.iceland {
+  background-image: url(../assets/images/iceland.jpg);
+  background-size: cover;
+}
+
+.greece {
+  background-image: url(../assets/images/greece.jpg);
+}
+
+.main__head {
+  color: rgb(255, 249, 242);
+  font-size: 4.5em;
+  padding: 7% 0% 0% 3%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  min-width: 275px;
+  max-width: 20%;
+  height: 300px;
+  margin: 3% 2% 6%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card__title {
+  text-align: center;
+  min-width: 90%;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  margin: 2% 0%;
+}
+
+.card-list {
+  padding: 0;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card-list__item {
+  list-style-type: none;
+  background-color: #fefaf5;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 6%;
+}
+
+.footer__title {
+  color: #335576;
+  text-align: start;
+}
+
+.hours {
+  display: inline-block;
+  text-align: start;
+  justify-content: space-between;
+  padding-left: 2rem;
+  margin-top: -1rem;
+}
+
+.info {
+  color: #db7a4e;
+  font-size: smaller;
+}
+
+.info__text {
+  color: #335576;
+  display: inline;
+}
+
+.footer__img {
+  padding-right: 2rem;
+  margin: 1rem;
+  height: 2rem;
+  width: 1.8rem;
+}
